@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import "../style/Header.css"
+import logo from "../assets/logo-small.png"
 
 
 export default function Header () {
@@ -11,7 +12,7 @@ export default function Header () {
 
             {/* Logo */}
             <Link to="/" className="site-header_logo">
-              <img src="/logo_sml 1.png" alt="HI-FI Horizon logo"/>
+              <img src={logo} alt="Logo"/>
             </Link>
 
             {/* Navigation */}

@@ -25,8 +25,9 @@
 
 /* NAVIGATION */
 .site-header__nav {
-  display: flex;
-  gap: 2rem;
+  margin-right: 25rem;
+  word-spacing: 1rem
+  
 }
 
 .site-header__nav-link {

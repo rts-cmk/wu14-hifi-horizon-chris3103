@@ -5,7 +5,7 @@ export default function Home () {
     return (
 
         <>
-        <img src={HeroImage} alt="Homepage hero" width="1552px" height="600px" />
+        <img src={HeroImage} alt="Homepage hero" width="1750px" height="600px" />
         </>
 
     )

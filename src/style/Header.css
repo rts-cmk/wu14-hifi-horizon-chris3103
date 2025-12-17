@@ -1,4 +1,4 @@
-/* RESET (valgfrit men anbefalet) */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +14,7 @@
 .site-header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 2rem;  
 }
 
 /* LOGO */
@@ -24,10 +24,8 @@
 }
 
 /* NAVIGATION */
-.site-header__nav {
-  margin-right: 25rem;
-  word-spacing: 1rem
-  
+.site-header__nav-link {
+  margin-right: 2rem;
 }
 
 .site-header__nav-link {
@@ -48,6 +46,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  margin-left: auto;
 }
 
 .site-header__search-input {

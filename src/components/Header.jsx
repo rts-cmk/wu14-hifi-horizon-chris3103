@@ -16,10 +16,10 @@ export default function Header () {
             </Link>
 
             {/* Navigation */}
-            <nav className="site-header__nav">
-                <Link to="/shop" className="site-header__nav-link">SHOP</Link>
-                <Link to="/about" className="site-header__nav-link">ABOUT US</Link>
-                <Link to="/contact" className="site-header__nav-link">CONTACT US</Link>
+            <nav className="header-container">
+                <a href="/shop" className="site-header__nav-link">SHOP</a>
+                <a to="/about" className="site-header__nav-link">ABOUT US</a>
+                <a to="/contact" className="site-header__nav-link">CONTACT US</a>
             </nav>
 
             {/* Search */}

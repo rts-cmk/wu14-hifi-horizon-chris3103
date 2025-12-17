@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vintage Bookshelf Speaker",
+      "description": "Klassisk 2-vejs reolhøjttaler med træfinish og varm, balanceret lyd.",
+      "price": 2499,
+      "category": "Speakers",
+      "manufacturer": "RetroSound",
+      "specs": {
+        "type": "Bookshelf Speaker",
+        "drivers": "2-way",
+        "impedance": "8 Ohm",
+        "power": "60W"
+      },
+      "image": "",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Vintage Bookshelf Speaker",
+      "description": "Klassisk 2-vejs reolhøjttaler med træfinish og varm, balanceret lyd.",
+      "price": 2499,
+      "category": "Speakers",
+      "manufacturer": "RetroSound",
+      "specs": {
+        "type": "Bookshelf Speaker",
+        "drivers": "2-way",
+        "impedance": "8 Ohm",
+        "power": "60W"
+      },
+      "image": "",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Vintage Bookshelf Speaker",
+      "description": "Klassisk 2-vejs reolhøjttaler med træfinish og varm, balanceret lyd.",
+      "price": 2499,
+      "category": "Speakers",
+      "manufacturer": "RetroSound",
+      "specs": {
+        "type": "Bookshelf Speaker",
+        "drivers": "2-way",
+        "impedance": "8 Ohm",
+        "power": "60W"
+      },
+      "image": "",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Vintage Bookshelf Speaker",
+      "description": "Klassisk 2-vejs reolhøjttaler med træfinish og varm, balanceret lyd.",
+      "price": 2499,
+      "category": "Speakers",
+      "manufacturer": "RetroSound",
+      "specs": {
+        "type": "Bookshelf Speaker",
+        "drivers": "2-way",
+        "impedance": "8 Ohm",
+        "power": "60W"
+      },
+      "image": "",
+      "inStock": true
+    }
+  ]
+}
+
+ 

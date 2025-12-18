@@ -6,6 +6,8 @@ export default function Home () {
 
         <>
         <img src={HeroImage} alt="Homepage hero" width="1750px" height="600px" />
+
+        <img id="productImage"></img>
         </>
 
     )

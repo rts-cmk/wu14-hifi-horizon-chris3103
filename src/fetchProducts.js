@@ -1,7 +1,11 @@
-fetch("http://localhost:3000/products")
- .then(res => res.json())
- .then(products => {
-    const img = document.getElementById("productImage");
-    img.src = products[0].image;
-    img.alt = products[0].title;
- })
+export default async function fetchProducts() {
+
+const response = await fetch("http://localhost:3000/products")  
+ 
+const data = await response.json()
+
+return data 
+
+
+} 
+

@@ -27,8 +27,11 @@ export default function Home () {
                 </button>
             </div>
         </section>
-
-        {productData.map(data => <ProductCard product={data}/> )}
+     
+        <div className="product-grid">
+            {productData.map(data => <ProductCard product={data}/> )}
+        </div>
+        
         </>
 
     )

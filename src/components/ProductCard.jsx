@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import "../style/Product.css"
 
 export default function ProductCard ({product} ) {
 

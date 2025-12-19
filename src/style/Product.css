@@ -1,0 +1,64 @@
+/* POPULAR PRODUCTS SECTION */
+.popular-products {
+    background-color: #f7f6f3;
+    padding: 2.5rem 4rem 1.5rem;
+}
+
+/* TOP BAR */
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 1.50rem;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    margin: 0;
+    color: #495464;
+}
+
+.section-button {
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 1.6rem;
+}
+
+
+.section-button:hover {
+  background-color: #e85f00;
+}
+
+.product-grid {
+  background-color: #f7f6f3;
+  padding: 0 4rem 3rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.product-grid > div a {
+  margin-top: auto;               /* holder den i bunden af cardet */
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ff6a00;
+  color: #ffffff;
+  text-decoration: none;
+
+  padding: 0.6rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease,
+              transform 0.15s ease;
+}
